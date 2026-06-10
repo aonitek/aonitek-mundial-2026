@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- BASE:START (managed by Coding Agent — do not edit) -->
+<base href="/aonitek-mundial-2026/">
+<!-- BASE:END -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  
+
+<!-- SEO Meta Tags -->
+<title>No Toques Nada — Aonitek &amp; FIFA World Cup 2026</title>
+<meta name="description" content="Aonitek lanza el tower defense del Mundial 2026. Jugá" />
+<meta property="og:title" content="No Toques Nada — Aonitek &amp; FIFA World Cup 2026" />
+<meta property="og:description" content="Aonitek lanza el tower defense del Mundial 2026. Jugá" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="No Toques Nada — Aonitek &amp; FIFA World Cup 2026" />
+<meta name="twitter:description" content="Aonitek lanza el tower defense del Mundial 2026. Jugá" />
+<!-- End SEO Meta Tags -->
+<script data-lp-token-hydrate>
+(function(){try{
+  var slug="lp-mq8kpaxw-a58dm";
+  var SK='lp_access_'+slug;
+  var map={access_token:'lp_pw_',allowlist_access_token:'lp_al_',pin_access_token:'lp_pin_',paywall_access_token:'lp_paid_'};
+  var u=new URL(location.href);var found=null;var changed=false;
+  Object.keys(map).forEach(function(p){var v=u.searchParams.get(p);if(v){found=v;try{localStorage.setItem(map[p]+slug,v);}catch(e){}u.searchParams.delete(p);changed=true;}});
+  if(found){try{sessionStorage.setItem(SK,found);}catch(e){}}
+  else{try{if(!sessionStorage.getItem(SK)){var t=localStorage.getItem('lp_pw_'+slug)||localStorage.getItem('lp_al_'+slug)||localStorage.getItem('lp_pin_'+slug)||localStorage.getItem('lp_paid_'+slug);if(t)sessionStorage.setItem(SK,t);}}catch(e){}}
+  if(changed){try{history.replaceState(null,'',u.toString());}catch(e){}}
+  function getTok(){try{return sessionStorage.getItem(SK)||localStorage.getItem('lp_pw_'+slug)||localStorage.getItem('lp_al_'+slug)||localStorage.getItem('lp_pin_'+slug)||localStorage.getItem('lp_paid_'+slug);}catch(e){return null;}}
+  function needsToken(url,method){if(!url)return false;var s=String(url);var m=(method||'GET').toUpperCase();var isSheetWrite=(m==='POST'||m==='PATCH'||m==='PUT'||m==='DELETE')&&/\/sheet-rows(\/|$|\?)/.test(s);var isSheetRead=/\/sheet-data(\/|$|\?)/.test(s);var isLlm=/\/api\/landing-pages\/public\/[^/]+\/(llm|llm-config)(\/|$|\?)/.test(s);return isSheetWrite||isSheetRead||isLlm;}
+  if(window.fetch){var _f=window.fetch;window.fetch=function(input,init){try{var url=typeof input==='string'?input:(input&&input.url)||'';var method=(init&&init.method)||(input&&input.method)||'GET';if(needsToken(url,method)){var tok=getTok();if(tok){init=init||{};var h=new Headers(init.headers||(typeof input!=='string'?input.headers:undefined)||{});if(!h.has('X-Landing-Page-Token'))h.set('X-Landing-Page-Token',tok);init.headers=h;}}}catch(e){}return _f.call(this,input,init);};}
+  if(window.XMLHttpRequest){var _o=XMLHttpRequest.prototype.open;var _s=XMLHttpRequest.prototype.send;XMLHttpRequest.prototype.open=function(m,u){this.__lpM=m;this.__lpU=u;return _o.apply(this,arguments);};XMLHttpRequest.prototype.send=function(){try{if(needsToken(this.__lpU,this.__lpM)){var tok=getTok();if(tok)this.setRequestHeader('X-Landing-Page-Token',tok);}}catch(e){}return _s.apply(this,arguments);};}
+}catch(e){}})();
+</script>
+
+<script data-field-replace>
+(function(){
+  var params=new URLSearchParams(window.location.search);
+  var fields={};
+  var paramMap={
+    'first_name':'firstName','last_name':'lastName','full_name':'fullName',
+    'email':'email','phone':'phone','company':'company',
+    'city':'city','state':'state','country':'country'
+  };
+  var skipTags={'SCRIPT':1,'STYLE':1,'NOSCRIPT':1,'TEXTAREA':1,'CODE':1,'PRE':1};
+  var hasUrlFields=false;
+  for(var p in paramMap){
+    var v=params.get(p);
+    if(v){fields[paramMap[p]]=v;hasUrlFields=true;}
+  }
+  var contactId=params.get('contact_id');
+  function esc(s){
+    if(!s)return s;
+    var d=document.createElement('div');
+    d.appendChild(document.createTextNode(s));
+    return d.innerHTML;
+  }
+  function doReplace(data){
+    var r={};
+    r['{{full_name}}']=esc(((data.firstName||'')+' '+(data.lastName||'')).trim()||((data.fullName||data.name)||''));
+    r['{{first_name}}']=esc(data.firstName||(data.name?data.name.split(' ')[0]:'')||'');
+    r['{{last_name}}']=esc(data.lastName||(data.name&&data.name.indexOf(' ')>-1?data.name.substring(data.name.indexOf(' ')+1):'')||'');
+    r['{{email}}']=esc(data.email||'');
+    r['{{phone}}']=esc(data.phone||'');
+    r['{{company}}']=esc(data.company||'');
+    r['{{city}}']=esc(data.city||'');
+    r['{{state}}']=esc(data.state||'');
+    r['{{country}}']=esc(data.country||'');
+    r['{{date}}']=new Date().toLocaleDateString();
+    r['{{time}}']=new Date().toLocaleTimeString();
+    r['{{location}}']=[data.city,data.state,data.country].filter(Boolean).join(', ');
+    r['{{tracking_id}}']=esc(data.trackingId||'');
+    r['{{lastClickedProduct}}']=esc(data.lastClickedProduct||'');
+    r['{{lastProductClickDate}}']=esc(data.lastProductClickDate||'');
+    r['{{lastClickedProductPrice}}']=esc(data.lastClickedProductPrice||'');
+    r['{{lastClickedProductURL}}']=esc(data.lastClickedProductURL||'');
+    r['{{productsClickedCount}}']=esc(data.productsClickedCount||'0');
+    r['{{ip_address}}']=esc(data.ipAddress||'');
+    r['{{ip}}']=esc(data.ipAddress||'');
+    if(data.customFields){
+      for(var k in data.customFields){
+        r['{{'+k+'}}']=esc(String(data.customFields[k]||''));
+      }
+    }
+    params.forEach(function(v,k){
+      if(!paramMap[k]&&k!=='contact_id'&&k!=='page_id'&&k.indexOf('utm_')!==0){
+        r['{{'+k+'}}']=esc(v);
+      }
+    });
+    var hasValues=false;
+    for(var key in r){if(r[key]){hasValues=true;break;}}
+    if(!hasValues)return;
+    var walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{
+      acceptNode:function(n){
+        var p=n.parentNode;
+        if(p&&skipTags[p.nodeName])return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    var node;
+    while(node=walker.nextNode()){
+      var txt=node.nodeValue;
+      if(txt&&txt.indexOf('{{')>-1){
+        var changed=txt;
+        for(var ph in r){
+          if(r[ph]&&changed.indexOf(ph)>-1){
+            changed=changed.split(ph).join(r[ph]);
+          }
+        }
+        if(changed!==txt)node.nodeValue=changed;
+      }
+    }
+    var attrs=['value','placeholder','content','alt','title'];
+    attrs.forEach(function(attr){
+      var els=document.querySelectorAll('['+attr+'*="{{"]');
+      for(var i=0;i<els.length;i++){
+        var tag=els[i].tagName;
+        if(skipTags[tag])continue;
+        var val=els[i].getAttribute(attr);
+        if(val){
+          var nv=val;
+          for(var ph in r){
+            if(r[ph]&&nv.indexOf(ph)>-1){
+              nv=nv.split(ph).join(r[ph]);
+            }
+          }
+          if(nv!==val)els[i].setAttribute(attr,nv);
+        }
+      }
+    });
+  }
+  function run(){
+    if(contactId){
+      var xhr=new XMLHttpRequest();
+      xhr.open('GET','https://app.aonitek.com/api/landing/context/'+encodeURIComponent(contactId)+'?page_id=4697');
+      xhr.onload=function(){
+        if(xhr.status===200){
+          try{
+            var resp=JSON.parse(xhr.responseText);
+            if(resp.success&&resp.contact){
+              var merged=resp.contact;
+              for(var k in fields){merged[k]=fields[k];}
+              doReplace(merged);
+              return;
+            }
+          }catch(e){}
+        }
+        if(hasUrlFields)doReplace(fields);
+      };
+      xhr.onerror=function(){if(hasUrlFields)doReplace(fields);};
+      xhr.send();
+    }else if(hasUrlFields){
+      doReplace(fields);
+    }
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',run);}
+  else{run();}
+})();
+</script>
+<script data-payment>
+(function(){
+  var slug='UD87r5j5';
+  var apiBase='https://app.aonitek.com';
+  var successSubtext='';var successBtnLabel='Continue';var successBtnColor='#16a34a';var successRedirect='';
+  function findEmail(){
+    var ids=['email','emailAddress','buyer-email','buyerEmail','user-email','userEmail','checkout-email','customer-email','contact-email'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.includes('@'))return el.value.trim();}
+    var inputs=document.querySelectorAll('input[type="email"],input[name*="email"],input[placeholder*="email"],input[placeholder*="Email"]');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.includes('@'))return inputs[j].value.trim();}
+    return '';
+  }
+  function findName(){
+    var ids=['name','fullName','full-name','buyer-name','buyerName','customer-name','userName','user-name'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value)return el.value.trim();}
+    var inputs=document.querySelectorAll('input[name*="name"]:not([name*="email"]):not([type="email"]),input[placeholder*="name"]:not([placeholder*="email"]):not([type="email"]),input[placeholder*="Name"]:not([type="email"])');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value)return inputs[j].value.trim();}
+    return '';
+  }
+  var __realProcessPayment=function(a,b,c,d,e){
+    var amountCents,email,productName,productDescription,customerName,quantity;
+    if(a&&typeof a==='object'){
+      amountCents=a.amountCents;email=a.email;productName=a.productName;
+      productDescription=a.productDescription||'';customerName=a.name||'';quantity=a.quantity||1;
+    }else{
+      amountCents=typeof a==='number'?a:0;productName=typeof b==='string'?b:'';
+      productDescription=typeof c==='string'?c:'';email='';customerName='';quantity=1;
+    }
+    if(!email)email=findEmail();
+    if(!customerName)customerName=findName();
+    if(!productName){alert('Product name is required.');return Promise.reject('no_product_name');}
+    if(!amountCents||amountCents<100){alert('Amount must be at least $1.00');return Promise.reject('invalid_amount');}
+    if(!email){alert('Please enter your email address.');return Promise.reject('no_email');}
+    var successBase=window.location.href.split('?')[0];
+    var __pLoc=(document.documentElement.lang||navigator.language||'en');
+    return fetch(apiBase+'/api/landing-pages/public/'+slug+'/payment/checkout',{
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({email:email,name:customerName,amountCents:amountCents,productName:productName,productDescription:productDescription,quantity:quantity,locale:__pLoc,successUrl:successBase+'?payment=success&product='+encodeURIComponent(productName)+'&session_id={CHECKOUT_SESSION_ID}',cancelUrl:successBase+'?payment=cancelled'})
+    }).then(function(r){return r.json();}).then(function(d){
+      if(d.checkoutUrl){window.location.href=d.checkoutUrl;}
+      else{alert(d.error||'Failed to process payment');throw new Error(d.error);}
+    });
+  };
+  Object.defineProperty(window,'__processPayment',{value:__realProcessPayment,writable:false,configurable:false});
+  document.addEventListener('DOMContentLoaded',function(){
+    var urlParams=new URLSearchParams(window.location.search);
+    if(urlParams.get('payment')==='success'){
+      var pName=urlParams.get('product')||'your item';
+      var overlay=document.createElement('div');overlay.id='payment-success-overlay';
+      overlay.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:999999;font-family:system-ui,-apple-system,sans-serif;';
+      function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+      var subTxt=successSubtext||('Thank you for purchasing '+pName+'.');
+      overlay.innerHTML='<div style="background:white;border-radius:16px;padding:40px;max-width:420px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.15);"><div style="width:64px;height:64px;border-radius:50%;background:#dcfce7;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><h2 style="margin:0 0 12px;font-size:24px;font-weight:700;color:#111827;">Payment Successful!</h2><p style="margin:0 0 24px;color:#6b7280;font-size:16px;">'+esc(subTxt)+'</p><button id="lp-pay-success-btn" style="padding:12px 32px;font-size:16px;font-weight:600;background:'+successBtnColor+';color:white;border:none;border-radius:8px;cursor:pointer;">'+esc(successBtnLabel)+'</button></div>';
+      document.body.appendChild(overlay);
+      var pBtn=document.getElementById('lp-pay-success-btn');
+      if(pBtn){pBtn.addEventListener('click',function(){if(successRedirect){window.location.href=successRedirect;}else{overlay.remove();window.history.replaceState({},'',window.location.pathname);}});}
+    }
+  });
+})();
+</script>  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <a class="nav-logo" href="https://aonitek.com">AONI<span>TEK</span></a>
+    <a class="nav-cta" href="https://app.aonitek.com/p/3Qd9W3shE" target="_blank">⚽ JUGÁ AHORA</a>
+  </nav>
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-flag"></div>
+    <div class="hero-content">
+      <div class="hero-label">FIFA World Cup 2026 × Aonitek — Tower Defense Game</div>
+      <h1 class="hero-headline">JUGÁ<br>SI TE<br><span class="accent">ATREVÉS.</span></h1>
+      <p class="hero-sub">No Toques Nada: el tower defense del Mundial que te va a poner los nervios a mil. Defendé la cábala de tu selección — si tenés el pecho para aguantarlo.</p>
+      <div class="hero-btns">
+        <a href="https://app.aonitek.com/p/3Qd9W3shE" target="_blank" class="btn-primary">⚽ NO APTO PECHOS FRÍOS</a>
+        <a href="#aonitek" class="btn-ghost">¿Quién hizo esto? →</a>
+      </div>
+    </div>
+  </section>
+  <div class="ticker">
+    <div class="ticker-inner">
+      <span>AONITEK NO HACE CÁBALAS</span><span>HACE AGENTES</span><span>FIFA WORLD CUP 2026</span><span>NO TOQUES NADA</span><span>IA PARA TU NEGOCIO</span><span>AGENTES 24/7</span>
+      <span>AONITEK NO HACE CÁBALAS</span><span>HACE AGENTES</span><span>FIFA WORLD CUP 2026</span><span>NO TOQUES NADA</span><span>IA PARA TU NEGOCIO</span><span>AGENTES 24/7</span>
+    </div>
+  </div>
+  <section class="game-section">
+    <div class="game-left">
+      <div class="game-wave">🏆 Presentamos el juego del Mundial 2026</div>
+      <h2 class="game-title">NO TOQUES<br><em>NADA.</em></h2>
+      <p class="game-desc">Un tower defense donde tus cábalas son las torres y las interrupciones son los enemigos. Elegís tu selección, armás el ritual antes del partido y defendés la tele de todo lo que quiere cortar la magia.</p>
+      <div class="game-features">
+        <div class="game-feat"><span class="icon">🏟️</span><span><strong>18 selecciones del Mundial</strong> — Argentina, Brasil, Uruguay, España, Francia y muchas más.</span></div>
+        <div class="game-feat"><span class="icon">🧿</span><span><strong>7 cábalas distintas</strong> — el sillón, la camiseta sin lavar, el mate ritual, el grito prohibido...</span></div>
+        <div class="game-feat"><span class="icon">⚔️</span><span><strong>5 oleadas</strong> — Grupos, Octavos, Cuartos, Semifinal y la Gran Final. Aumenta la dificultad.</span></div>
+        <div class="game-feat"><span class="icon">🐕</span><span><strong>6 tipos de enemigos</strong> — El Perro, El Delivery, El Vecino, El Mosquito, La Llamada de Mamá...</span></div>
+      </div>
+      <a href="https://app.aonitek.com/p/3Qd9W3shE" target="_blank" class="btn-primary" style="display:inline-block;width:fit-content">⚽ EMPEZAR A JUGAR</a>
+    </div>
+    <div class="game-right">
+      <div class="game-right-bg"></div>
+      <div class="game-right-overlay"></div>
+      <div class="game-right-content">
+        <div class="game-screen-mock">
+          <div class="mock-badge">FIFA WORLD CUP 2026</div>
+          <div class="mock-title">DEFENDÉ TU<br>EQUIPO<br>A PURA CÁBALA</div>
+          <div class="mock-sub">🏆 Tower Defense Game 🛡️</div>
+          <div class="mock-emojis">🧿⚽🏆</div>
+          <div class="mock-teams">
+            <span class="mock-flag">🇦🇷</span><span class="mock-flag">🇧🇷</span><span class="mock-flag">🇺🇾</span><span class="mock-flag">🇪🇸</span>
+            <span class="mock-flag">🇫🇷</span><span class="mock-flag">🇩🇪</span><span class="mock-flag">🇵🇹</span><span class="mock-flag">🇲🇽</span>
+          </div>
+          <a href="https://app.aonitek.com/p/3Qd9W3shE" target="_blank" class="btn-game">⚽ JUGAR GRATIS</a>
+        </div>
+        <div style="font-size:12px;color:rgba(106,140,176,.6);letter-spacing:1px;text-align:center">GRATUITO · SIN REGISTRO · EN TU NAVEGADOR</div>
+      </div>
+    </div>
+  </section>
+  <div class="stats-strip">
+    <div class="stat-item"><div class="stat-num">14<span class="unit">días</span></div><div class="stat-label">Implementación completa<br>de tu agente IA</div></div>
+    <div class="stat-item"><div class="stat-num">24<span class="unit">/7</span></div><div class="stat-label">Tu negocio funcionando<br>sin interrupciones</div></div>
+    <div class="stat-item"><div class="stat-num">+20<span class="unit">hs</span></div><div class="stat-label">Por semana que liberan<br>tus equipos</div></div>
+    <div class="stat-item"><div class="stat-num">0</div><div class="stat-label">Conocimientos técnicos<br>necesarios de tu parte</div></div>
+  </div>
+  <section class="aonitek-section" id="aonitek">
+    <div class="section-eyebrow">Quiénes somos</div>
+    <h2 class="section-title">Aonitek no hace<br>cábalas. <em>Hace agentes.</em></h2>
+    <p class="section-sub">Mientras vos rezás, tocás la camiseta y ponés el vaso en el mismo lugar de siempre, nuestros agentes IA trabajan sin parar — sin rituales, sin supersticiones, sin darte vuelta la camiseta.</p>
+    <div class="services-grid">
+      <div class="svc featured"><div class="svc-num">01</div><span class="svc-icon">🤖</span><div class="svc-title">Agentes IA Omnicanales</div><div class="svc-desc">Tu empleado digital atiende WhatsApp, web, Instagram, Telegram y más — 24/7, sin quejarse, sin necesitar cábala para rendir.</div></div>
+      <div class="svc"><div class="svc-num">02</div><span class="svc-icon">🌐</span><div class="svc-title">Web + Asistente IA</div><div class="svc-desc">Tu presencia digital con un agente inteligente integrado que convierte visitas en clientes.</div></div>
+      <div class="svc"><div class="svc-num">03</div><span class="svc-icon">🚀</span><div class="svc-title">Programa IA In-Company</div><div class="svc-desc">Capacitamos a tu equipo en IA aplicada. No más tutoriales de 40 videos que nunca terminás.</div></div>
+    </div>
+  </section>
+  <div class="pain-section">
+    <div class="pain-left">
+      <div class="section-eyebrow">¿Te suena familiar?</div>
+      <h3 class="section-title" style="font-size:clamp(36px,4.5vw,58px);margin-bottom:28px">Las interrupciones que tu negocio no puede defender</h3>
+      <div class="pain-items">
+        <div class="pain-item"><div class="pain-num">01</div><div class="pain-text"><strong>Mensajes sin responder a las 11 PM</strong><p>Si no respondés al instante, la venta se va a la competencia.</p></div></div>
+        <div class="pain-item"><div class="pain-num">02</div><div class="pain-text"><strong>4 horas al día en preguntas repetitivas</strong><p>Precios, horarios, disponibilidad. Siempre las mismas. Siempre vos.</p></div></div>
+        <div class="pain-item"><div class="pain-num">03</div><div class="pain-text"><strong>No podés desconectarte</strong><p>Tu libertad depende de que seas un esclavo del chat. Eso no es un negocio, es una cárcel.</p></div></div>
+      </div>
+    </div>
+    <div class="pain-right">
+      <div class="tagline-block">
+        <div class="tagline-text">En el juego, vos ponés la cábala. En el negocio, nosotros ponemos el agente.</div>
+        <p class="tagline-sub">Done-For-You: lo construimos nosotros, vos ves los resultados. Sin programar, sin complicaciones, sin supersticiones.</p>
+        <a href="https://wa.me/5492974643218?text=Hola%2C+quiero+saber+m%C3%A1s+sobre+los+agentes+IA" class="tagline-link" target="_blank">Agendar diagnóstico gratis →</a>
+      </div>
+    </div>
+  </div>
+  <section class="final-cta">
+    <div class="final-cta-bg"></div>
+    <div class="final-cta-content">
+      <div class="final-eyebrow">¿Listo para jugar — y para crecer?</div>
+      <h2 class="final-title">DOS PARTIDOS.<br>UNA DECISIÓN.</h2>
+      <p class="final-sub">Jugá el tower defense del Mundial 2026 y, cuando termines, hablá con nosotros sobre el agente que va a defender tu negocio de verdad.</p>
+      <div class="final-btns">
+        <a href="https://app.aonitek.com/p/3Qd9W3shE" target="_blank" class="btn-primary" style="border-radius:2px">⚽ JUGAR NO TOQUES NADA</a>
+        <a href="https://wa.me/5492974643218?text=Hola%2C+quiero+saber+m%C3%A1s+sobre+los+agentes+IA" target="_blank" class="btn-wa">📱 Hablar con Aonitek</a>
+      </div>
+      <div style="margin-top:32px;font-size:12px;color:rgba(106,140,176,.5);letter-spacing:1px">Consulta gratis · Respuesta en 24hs · Sin permanencia</div>
+    </div>
+  </section>
+  <footer>
+    <div>
+      <div class="footer-logo">AONI<span>TEK</span></div>
+      <div class="footer-tagline" style="margin-top:6px">IA para un continente imparable</div>
+    </div>
+    <div class="footer-links">
+      <a href="https://aonitek.com">Web</a>
+      <a href="https://www.instagram.com/aonitek/">Instagram</a>
+      <a href="https://www.linkedin.com/company/aonitek">LinkedIn</a>
+      <a href="mailto:info@aonitek.com">info@aonitek.com</a>
+    </div>
+    <div class="footer-copy">© 2026 Aonitek. Todos los derechos reservados.</div>
+  </footer>
+</body>
+</html>
